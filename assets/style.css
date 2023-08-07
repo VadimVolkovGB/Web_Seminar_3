@@ -1,0 +1,45 @@
+h1 {
+    color:olive;
+    /* margin: 0; */
+}
+h1, p {
+    margin: 0;
+}
+.section {
+    display: flex;
+    /* justify-content: center; если в один ряд по горизонтали */
+    flex-direction: column;
+    align-items: center;
+}
+.desc {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color:blue
+}
+.fire{
+    color:brown
+}
+.card {
+    width: 500px;
+    height: 200px;
+    /* dashed - пунктирный, solid - сплошной */
+    border: 5px dashed orangered;
+    padding: 30px;
+    background-color:lavenderblush;
+    margin-bottom: 30px;
+}
+.button {
+    width: 250px;
+    height:50px;
+    background-color:rgb(50, 152, 99);
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: brown;
+}
+/* .list {
+    /* если хотим в одну строку */
+    /* display:flex;
+    gap:30px; */
+
